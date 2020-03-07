@@ -1,11 +1,16 @@
+
+<!-- PHP/Laravel 02の課題 -->
+
 <?php
 $a = 3;
 $b = 7;
 echo $a + $b;
+echo "\n";
 
 
 $array_month = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 echo $array_month[7];
+echo "\n";
 
 
 $hello = "HELLO ";
@@ -13,9 +18,13 @@ $name = "TETSUYA";
 $world = "'s world";
 echo $hello.$name.$world;
 echo '<br>';
+echo "\n";
+
 
 $tech_boost = "tech";
 echo  "「". $tech_boost. " boost」";
+echo "\n";
+
 
 $calendar_2018 = [
   "January" => "1月",
@@ -33,23 +42,5 @@ $calendar_2018 = [
 ];
 
 echo $calendar_2018["December"];
-
-$name = "hasegawa";
-if ($name == "hasegawa"){
-    echo "私は長谷川哲也です";
-}else{
-    echo "私は長谷川哲也ではありません";
-}
-
-$total = 0;
-for ($i = 0; $i <= 10000; $i++) {
-  $total += $i;
-}
-echo $total;
-
-$fruits = array("バナナ", "りんご", "キウイ", "いちご", "みかん");
-foreach($fruits as $Value){
-    echo $Value;
-}
-
+echo "\n";
 
