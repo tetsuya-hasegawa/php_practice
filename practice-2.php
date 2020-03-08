@@ -1,42 +1,48 @@
-/* PHP/Laravel 03の課題 /
+
+<!-- PHP/Laravel 02の課題 -->
 
 <?php
-$name = "hasegawa";
-if ($name == "hasegawa"){
-    echo "私は長谷川哲也です";
-}else{
-    echo "私は長谷川哲也ではありません";
-}
-echo "\n";
-
-$total = 0;
-for ($i = 0; $i <= 10000; $i++) {
-  $total += $i;
-}
-echo $total;
-echo "\n";
-
-$fruits = array("バナナ ", "りんご ", "キウイ ", "いちご ", "みかん ");
-foreach($fruits as $Value){
-    echo $Value;
-}
+$a = 3;
+$b = 7;
+echo $a + $b;
 echo "\n";
 
 
+$array_month = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+echo $array_month[7];
+echo "\n";
 
 
+$hello = "HELLO ";
+$name = "TETSUYA";
+$world = "'s world";
+echo $hello.$name.$world;
+echo '<br>';
+echo "\n";
 
 
-/* for文の始めの値を定義する */
-$start = 1;
-/* for文の終わりの値を定義する */
-$end = 100;
+$tech_boost = "tech";
+$syuusei = "「". $tech_boost. " boost」";
+$tech_boost = $syuusei;
+echo $tech_boost;
+echo "\n";
 
-for($i = $start; $i <= $end; $i++){
 
-  // 5で割り切れたら{}内を実行する
-  if($i % 5 == 0){
-    echo $i;
-    echo "\n";
-  }
-}
+$calendar_2018 = [
+  "January" => "1月",
+  "February" => "2月",
+  "March" => "3月",
+  "April" => "4月",
+  "May" => "5月",
+  "June" => "6月",
+  "July" => "7月",
+  "August" => "8月",
+  "September" => "9月",
+  "October" => "10月",
+  "November" => "11月",
+  "December" => "12月"
+];
+
+echo $calendar_2018["December"];
+echo "\n";
+
