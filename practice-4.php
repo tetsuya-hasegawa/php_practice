@@ -17,15 +17,15 @@ echo "\n";
 
 
 //3.
-function max_array($arr){
+function max_array($arr2){
     $result = 1;
-    foreach($arr as $a){
+    foreach($arr2 as $a){
         $result *= $a;
     }
     echo $result;
 }
-$arr = array(1,3,5,7,9);
-max_array($arr);
+$arr1 = array(1,3,5,7,9);
+max_array($arr1);
 echo "\n";
 //max_array(array(1,3,5,7,9));
 //echo "\n";
